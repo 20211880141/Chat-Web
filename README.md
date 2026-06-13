@@ -17,7 +17,7 @@
 
 Chat App is a real-time messaging platform that supports public channels, private conversations, file sharing, message search, and more. Built with a modern stack featuring WebSocket-powered instant communication.
 
-**Live Demo**: [Deploy to Railway](#deployment)
+**Live Demo**: [chat-app-production-49cb.up.railway.app](https://chat-app-production-49cb.up.railway.app)
 
 ## Tech Stack
 
