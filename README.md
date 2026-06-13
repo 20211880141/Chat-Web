@@ -152,11 +152,11 @@ npm start       # Serves both API and client on port 3001
 ### Deploy to Railway
 
 1. Push this repo to GitHub
-2. Go to [Railway](https://railway.app) and create a new project
-3. Select **Deploy from GitHub repo** and connect your repository
-4. Set the **Root Directory** to `Chat-App/server`
-5. Railway will automatically detect the `start` script and run `npm run build && npm start`
-6. Your app will be deployed and accessible via a Railway-generated URL
+2. Go to [Railway](https://railway.app) and click **New Project**
+3. Select **Deploy from GitHub repo** and connect your `Chat-App` repository
+4. Railway will automatically detect the project — **no additional configuration needed**
+5. Click **Deploy** and wait for the build to complete
+6. Your app will be accessible via a Railway-generated URL
 
 > **Note**: SQLite is used as the database. Since Railway's filesystem is ephemeral, data will be lost on each redeploy. For production use, consider migrating to a persistent database like PostgreSQL.
 

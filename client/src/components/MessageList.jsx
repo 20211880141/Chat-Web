@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 
-const API_BASE = 'http://127.0.0.1:3001';
+const API_BASE = import.meta.env.DEV ? 'http://127.0.0.1:3001' : '';
 
 const LINK_REGEX = /(https?:\/\/[^\s]+)/g;
 
